@@ -1,7 +1,7 @@
 game-panel {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
     max-width: 15rem;
     padding: 1rem;
     gap: 1rem;
