@@ -1,0 +1,35 @@
+game-panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 4rem;
+    max-width: 15rem;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+game-number {
+    align-content: center;
+    border: 1px solid var(--line-color);
+    border-radius: 50%;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 3rem;
+    text-align: center;
+    width: 3rem;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &.matched {
+        background-color: var(--blue);
+        color: var(--white);
+        cursor: default;
+    }
+
+    &.selected {
+        background-color: var(--green);
+        color: var(--black);
+    }
+
+}
